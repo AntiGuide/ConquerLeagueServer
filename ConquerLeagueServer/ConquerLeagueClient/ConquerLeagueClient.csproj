@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}</ProjectGuid>
+    <ProjectGuid>{66741572-DD1B-40C4-89DA-F71ED01D66F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConquerLeagueServer</RootNamespace>
-    <AssemblyName>ConquerLeagueServer</AssemblyName>
+    <RootNamespace>ConquerLeagueClient</RootNamespace>
+    <AssemblyName>ConquerLeagueClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Server.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquerLeagueServer", "ConquerLeagueServer\ConquerLeagueServer.csproj", "{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConquerLeagueClient", "ConquerLeagueClient\ConquerLeagueClient.csproj", "{66741572-DD1B-40C4-89DA-F71ED01D66F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9} = {4E3B7DA4-F875-4933-901D-E6CB3953A0C9}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,8 +18,12 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3B7DA4-F875-4933-901D-E6CB3953A0C9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{66741572-DD1B-40C4-89DA-F71ED01D66F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66741572-DD1B-40C4-89DA-F71ED01D66F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66741572-DD1B-40C4-89DA-F71ED01D66F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{66741572-DD1B-40C4-89DA-F71ED01D66F9}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
