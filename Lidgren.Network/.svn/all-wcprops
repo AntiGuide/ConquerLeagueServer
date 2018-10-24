@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/402/trunk/Lidgren.Network
+END
+NetSendResult.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/281/trunk/Lidgren.Network/NetSendResult.cs
+END
+NetReceiverChannelBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/129/trunk/Lidgren.Network/NetReceiverChannelBase.cs
+END
+NetPeer.Fragmentation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/397/trunk/Lidgren.Network/NetPeer.Fragmentation.cs
+END
+NetPeer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetPeer.cs
+END
+NetBuffer.Write.Reflection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/370/trunk/Lidgren.Network/NetBuffer.Write.Reflection.cs
+END
+NetPeer.MessagePools.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetPeer.MessagePools.cs
+END
+NetPeer.LatencySimulation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/391/trunk/Lidgren.Network/NetPeer.LatencySimulation.cs
+END
+NetException.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/366/trunk/Lidgren.Network/NetException.cs
+END
+NetFragmentationHelper.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/319/trunk/Lidgren.Network/NetFragmentationHelper.cs
+END
+NetConnection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/401/trunk/Lidgren.Network/NetConnection.cs
+END
+NetOutgoingMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetOutgoingMessage.cs
+END
+NetReliableSequencedReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/129/trunk/Lidgren.Network/NetReliableSequencedReceiver.cs
+END
+NetUnreliableSequencedReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/376/trunk/Lidgren.Network/NetUnreliableSequencedReceiver.cs
+END
+NetSenderChannelBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/396/trunk/Lidgren.Network/NetSenderChannelBase.cs
+END
+NetSRP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/379/trunk/Lidgren.Network/NetSRP.cs
+END
+NetStoredReliableMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/394/trunk/Lidgren.Network/NetStoredReliableMessage.cs
+END
+NetPeerStatistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/393/trunk/Lidgren.Network/NetPeerStatistics.cs
+END
+NetIncomingMessage.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/379/trunk/Lidgren.Network/NetIncomingMessage.cs
+END
+NetBuffer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/331/trunk/Lidgren.Network/NetBuffer.cs
+END
+NetReliableOrderedReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/264/trunk/Lidgren.Network/NetReliableOrderedReceiver.cs
+END
+NetReliableSenderChannel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetReliableSenderChannel.cs
+END
+NetConnectionStatistics.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/396/trunk/Lidgren.Network/NetConnectionStatistics.cs
+END
+NetBitWriter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/359/trunk/Lidgren.Network/NetBitWriter.cs
+END
+NamespaceDoc.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/134/trunk/Lidgren.Network/NamespaceDoc.cs
+END
+NetUnreliableSenderChannel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/397/trunk/Lidgren.Network/NetUnreliableSenderChannel.cs
+END
+NetReliableUnorderedReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/264/trunk/Lidgren.Network/NetReliableUnorderedReceiver.cs
+END
+NetClient.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/311/trunk/Lidgren.Network/NetClient.cs
+END
+NetUnreliableUnorderedReceiver.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/129/trunk/Lidgren.Network/NetUnreliableUnorderedReceiver.cs
+END
+NetBigInteger.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/334/trunk/Lidgren.Network/NetBigInteger.cs
+END
+NetPeer.Logging.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/324/trunk/Lidgren.Network/NetPeer.Logging.cs
+END
+NetRandomSeed.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/378/trunk/Lidgren.Network/NetRandomSeed.cs
+END
+NetPeerConfiguration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/393/trunk/Lidgren.Network/NetPeerConfiguration.cs
+END
+NetConnection.Handshake.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/401/trunk/Lidgren.Network/NetConnection.Handshake.cs
+END
+NetDeliveryMethod.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/133/trunk/Lidgren.Network/NetDeliveryMethod.cs
+END
+NetQueue.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/401/trunk/Lidgren.Network/NetQueue.cs
+END
+NetNatIntroduction.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetNatIntroduction.cs
+END
+NetMessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/163/trunk/Lidgren.Network/NetMessageType.cs
+END
+NetTuple.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/133/trunk/Lidgren.Network/NetTuple.cs
+END
+NetBuffer.Peek.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/291/trunk/Lidgren.Network/NetBuffer.Peek.cs
+END
+NetConnection.Latency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/395/trunk/Lidgren.Network/NetConnection.Latency.cs
+END
+NetTime.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/306/trunk/Lidgren.Network/NetTime.cs
+END
+NetPeerStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/132/trunk/Lidgren.Network/NetPeerStatus.cs
+END
+Lidgren.Network.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/382/trunk/Lidgren.Network/Lidgren.Network.csproj
+END
+NetPeer.Discovery.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetPeer.Discovery.cs
+END
+NetBitVector.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/202/trunk/Lidgren.Network/NetBitVector.cs
+END
+NetBuffer.Write.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/368/trunk/Lidgren.Network/NetBuffer.Write.cs
+END
+NetUtility.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/382/trunk/Lidgren.Network/NetUtility.cs
+END
+NetConnection.MTU.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/389/trunk/Lidgren.Network/NetConnection.MTU.cs
+END
+NetConnectionStatus.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/301/trunk/Lidgren.Network/NetConnectionStatus.cs
+END
+NetServer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/277/trunk/Lidgren.Network/NetServer.cs
+END
+NetPeer.Internal.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/401/trunk/Lidgren.Network/NetPeer.Internal.cs
+END
+NetFragmentationInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/25/trunk/Lidgren.Network/NetFragmentationInfo.cs
+END
+NetIncomingMessageType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/202/trunk/Lidgren.Network/NetIncomingMessageType.cs
+END
+NetConstants.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/240/trunk/Lidgren.Network/NetConstants.cs
+END
+NetBuffer.Read.Reflection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/370/trunk/Lidgren.Network/NetBuffer.Read.Reflection.cs
+END
+NetRandom.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/374/trunk/Lidgren.Network/NetRandom.cs
+END
+NetUPnP.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/401/trunk/Lidgren.Network/NetUPnP.cs
+END
+NetBuffer.Read.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/379/trunk/Lidgren.Network/NetBuffer.Read.cs
+END
+NetPeer.Send.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/402/trunk/Lidgren.Network/NetPeer.Send.cs
+END
+NetRandom.Implementations.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/374/trunk/Lidgren.Network/NetRandom.Implementations.cs
+END

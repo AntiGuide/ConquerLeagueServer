@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/384/trunk/Lidgren.Network/Encryption
+END
+NetEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetEncryption.cs
+END
+NetXteaEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetXteaEncryption.cs
+END
+NetBlockEncryptionBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/379/trunk/Lidgren.Network/Encryption/NetBlockEncryptionBase.cs
+END
+NetRC2Encryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetRC2Encryption.cs
+END
+NetXorEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetXorEncryption.cs
+END
+NetAESEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetAESEncryption.cs
+END
+NetDESEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetDESEncryption.cs
+END
+NetCryptoProviderBase.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/384/trunk/Lidgren.Network/Encryption/NetCryptoProviderBase.cs
+END
+NetTripleDESEncryption.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/382/trunk/Lidgren.Network/Encryption/NetTripleDESEncryption.cs
+END
