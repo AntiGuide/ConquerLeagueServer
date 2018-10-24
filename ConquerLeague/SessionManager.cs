@@ -16,6 +16,7 @@ namespace ConquerLeague {
         public void AddPlayerToMatchmaking(NetConnection netConnection) {
             if (waitingPlayerConnection == null) {
                 waitingPlayerConnection = new PlayerConnection(netConnection);
+                allPlayerConnections.Add(waitingPlayerConnection);
                 return;
             }
 
@@ -34,7 +35,11 @@ namespace ConquerLeague {
         public void ForwardMessageToSession(NetConnection senderConnection, string data) {
             foreach (PlayerConnection pc in allPlayerConnections) {
                 if (pc.NetConnection == senderConnection) {
-                    pc.Session.NewData(pc, data);
+                    if (pc.Session != null) {
+                        pc.Session.NewData(pc, data);
+                    }
+
+                    return;
                 }
             }
         }

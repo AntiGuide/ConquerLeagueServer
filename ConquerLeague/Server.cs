@@ -19,7 +19,7 @@ namespace Lidgren.Network {
             while (true) {
                 NetIncomingMessage message;
                 while ((message = server.ReadMessage()) != null) {
-                    Console.WriteLine("Message came in");
+                    //Console.WriteLine("Message came in");
                     switch (message.MessageType) {
                         case NetIncomingMessageType.Data:
                             // handle custom messages

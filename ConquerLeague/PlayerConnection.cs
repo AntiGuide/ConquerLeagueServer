@@ -7,24 +7,12 @@ using System.Threading.Tasks;
 
 namespace ConquerLeague {
     class PlayerConnection {
-        public Session Session {
-            get { return session; }
-            set { session = value; }
+        public Session Session { get; set; }
+        public NetConnection NetConnection { get; set; }
+
+        public PlayerConnection(NetConnection NetConnection, Session Session = null) {
+            this.NetConnection = NetConnection;
+            this.Session = Session;
         }
-
-        public NetConnection NetConnection {
-            get { return netConnection; }
-            set { netConnection = value; }
-        }
-
-        private NetConnection netConnection;
-        private Session session;
-
-        public PlayerConnection(NetConnection netConnection, Session session = null) {
-            this.netConnection = netConnection;
-            this.session = session;
-        }
-
-
     }
 }
