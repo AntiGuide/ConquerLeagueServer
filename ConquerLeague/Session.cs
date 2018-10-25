@@ -12,6 +12,9 @@ namespace ConquerLeague {
         public Session(NetConnection playerConnection1, NetConnection playerConnection2) {
             this.playersConnections[0] = playerConnection1 ?? throw new System.ArgumentNullException("Cannot be null.", "playerConnection1");
             this.playersConnections[1] = playerConnection2 ?? throw new System.ArgumentNullException("Cannot be null.", "playerConnection2");
+            Console.WriteLine(this.playersConnections[0].RemoteEndPoint.Address.ToString() + 
+                " is now in a session with " +
+                this.playersConnections[1].RemoteEndPoint.Address.ToString());
         }
 
         public void NewData(PlayerConnection pc, string data) {

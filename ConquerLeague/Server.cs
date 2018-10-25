@@ -46,7 +46,9 @@ namespace Lidgren.Network {
                             // (only received when compiled in DEBUG mode)
                             Console.WriteLine(message.ReadString());
                             break;
-
+                        case NetIncomingMessageType.WarningMessage:
+                            Console.WriteLine("Warning: " + message.ReadString());
+                            break;
                         default:
                             Console.WriteLine("unhandled message with type: "
                                 + message.MessageType);
