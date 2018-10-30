@@ -32,11 +32,11 @@ namespace ConquerLeague {
             
         }
 
-        public void ForwardMessageToSession(NetConnection senderConnection, string data) {
+        public void ForwardMessageToSession(NetConnection senderConnection, int dataLength, byte[] data) {
             foreach (PlayerConnection pc in allPlayerConnections) {
                 if (pc.NetConnection == senderConnection) {
                     if (pc.Session != null) {
-                        pc.Session.NewData(pc, data);
+                        pc.Session.NewData(pc, dataLength, data);
                     }
 
                     return;

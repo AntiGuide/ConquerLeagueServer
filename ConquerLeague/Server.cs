@@ -23,10 +23,15 @@ namespace Lidgren.Network {
                     switch (message.MessageType) {
                         case NetIncomingMessageType.Data:
                             // handle custom messages
-                            var data = message.ReadString();
-                            sessionManager.ForwardMessageToSession(message.SenderConnection, data);
-                            //var msg = server.CreateMessage(data);
-                            //server.SendMessage(msg, message.SenderConnection, NetDeliveryMethod.ReliableOrdered);
+                            
+                            var dataLength = message.ReadInt32();
+                            var data = message.ReadBytes(dataLength);
+                            //foreach (var item in data) {
+                            //    Console.Write(item.ToString() + ", ");
+                            //}
+
+                            //Console.Write("\r\n");
+                            sessionManager.ForwardMessageToSession(message.SenderConnection, dataLength, data);
                             // Console.WriteLine(data);
                             break;
 
@@ -40,7 +45,9 @@ namespace Lidgren.Network {
                                     break;
                             }
                             break;
-
+                        case NetIncomingMessageType.ConnectionApproval:
+                            message.SenderConnection.Approve();
+                            break;
                         case NetIncomingMessageType.DebugMessage:
                             // handle debug messages
                             // (only received when compiled in DEBUG mode)
@@ -54,6 +61,7 @@ namespace Lidgren.Network {
                                 + message.MessageType);
                             break;
                     }
+                    server.Recycle(message);
                 }
             }
 

@@ -17,9 +17,14 @@ namespace ConquerLeague {
                 this.playersConnections[1].RemoteEndPoint.Address.ToString());
         }
 
-        public void NewData(PlayerConnection pc, string data) {
+        public void NewData(PlayerConnection pc, int dataLength, byte[] data) {
             var recipent = pc.NetConnection == playersConnections[0] ? playersConnections[1] : playersConnections[0];
-            Server.server.SendMessage(Server.server.CreateMessage(data), recipent, NetDeliveryMethod.ReliableOrdered);
+            //var recipent = pc.NetConnection == playersConnections[0] ? playersConnections[0] : playersConnections[1];
+            var msg = Server.server.CreateMessage();
+            msg.Write(dataLength);
+            msg.Write(data);
+            //server.SendMessage(msg, message.SenderConnection, NetDeliveryMethod.ReliableSequenced);
+            Server.server.SendMessage(msg, recipent, NetDeliveryMethod.ReliableSequenced);
         }
     }
 }
