@@ -43,6 +43,12 @@ namespace Lidgren.Network {
                                     Console.WriteLine("Client " + message.SenderConnection.RemoteEndPoint.ToString() + " connected!");
                                     sessionManager.AddPlayerToMatchmaking(message.SenderConnection);
                                     break;
+                                case NetConnectionStatus.RespondedConnect:
+                                    Console.WriteLine(message.SenderConnection.Status.ToString());
+                                    break;
+                                default:
+                                    Console.WriteLine("Unhandled status change with type: " + message.SenderConnection.Status.ToString());
+                                    break;
                             }
                             break;
                         case NetIncomingMessageType.ConnectionApproval:

@@ -42,8 +42,8 @@ namespace ConquerLeague {
             msg1.Write(2);
             msg0.Write(data0);
             msg1.Write(data1);
-            Server.server.SendMessage(msg0, playersConnections[0], NetDeliveryMethod.ReliableSequenced);
-            Server.server.SendMessage(msg1, playersConnections[1], NetDeliveryMethod.ReliableSequenced);
+            Server.server.SendMessage(msg0, playersConnections[0], NetDeliveryMethod.ReliableOrdered);
+            Server.server.SendMessage(msg1, playersConnections[1], NetDeliveryMethod.ReliableOrdered);
         }
 
         public void NewData(PlayerConnection pc, int dataLength, byte[] data) {
@@ -53,7 +53,7 @@ namespace ConquerLeague {
             msg.Write(dataLength);
             msg.Write(data);
             //server.SendMessage(msg, message.SenderConnection, NetDeliveryMethod.ReliableSequenced);
-            Server.server.SendMessage(msg, recipent, NetDeliveryMethod.ReliableSequenced);
+            Server.server.SendMessage(msg, recipent, NetDeliveryMethod.UnreliableSequenced);
         }
     }
 }
