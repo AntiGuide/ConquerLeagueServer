@@ -11,6 +11,7 @@ namespace Lidgren.Network {
 
         static void Main(string[] args) {
             var config = new NetPeerConfiguration("ConquerLeague") { Port = 47410 };
+            config.EnableMessageType(NetIncomingMessageType.DiscoveryRequest);
             server = new NetServer(config);
             server.Start();
 
@@ -20,6 +21,11 @@ namespace Lidgren.Network {
                 NetIncomingMessage message;
                 while ((message = server.ReadMessage()) != null) {
                     switch (message.MessageType) {
+                        case NetIncomingMessageType.DiscoveryRequest:
+                            NetOutgoingMessage response = server.CreateMessage(); // Create a response and write some example data to it
+                            response.Write("ConquerLeagueServer");
+                            server.SendDiscoveryResponse(response, message.SenderEndPoint); // Send the response to the sender of the request
+                            break;
                         case NetIncomingMessageType.Data:
                             var dataLength = message.ReadInt32();
                             var data = message.ReadBytes(dataLength);
