@@ -48,11 +48,9 @@ namespace ConquerLeague {
 
         public void NewData(PlayerConnection pc, int dataLength, byte[] data) {
             var recipent = pc.NetConnection == playersConnections[0] ? playersConnections[1] : playersConnections[0];
-            //var recipent = pc.NetConnection == playersConnections[0] ? playersConnections[0] : playersConnections[1];
             var msg = Server.server.CreateMessage();
             msg.Write(dataLength);
             msg.Write(data);
-            //server.SendMessage(msg, message.SenderConnection, NetDeliveryMethod.ReliableSequenced);
             Server.server.SendMessage(msg, recipent, NetDeliveryMethod.UnreliableSequenced);
         }
     }
